@@ -9,3 +9,7 @@ Main files of this project are:<br>
 <b>index.html</b>,<br>
 <b>script.js</b> (concat, babel, terser),<br> 
 <b>style.css</b> (autoprefixer, cssnano)<br> 
+
+<img src="weatherapp-desktop.png" width="800">
+<img src="weatherapp-tablet.png" width="600">
+<img src="weatherapp-mobile.png" width="400">
