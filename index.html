@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather app</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="location">
+            <p class="city"></p>
+            <p class="current-date"></p>
+        </div>
+
+        <div class="current">
+            <p class="weather"></p>
+            <p class="hi-low"></p>
+        </div>
+
+        <p class="temp"></p>
+        
+        <div class="search-container">
+            <input type="text" class="search" autocomplete="off" placeholder="Search for a city...">
+        </div>
+
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.0.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
